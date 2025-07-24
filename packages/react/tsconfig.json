@@ -1,0 +1,17 @@
+{
+  "extends": "@bricks/typescript-config/react-library.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "declaration": true,
+    "incremental": true,
+    "declarationMap": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
