@@ -1,0 +1,40 @@
+{
+  "name": "@bricks/tokens",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./colors": {
+      "types": "./dist/colors.d.ts",
+      "default": "./dist/colors.js"
+    },
+    "./spacing": {
+      "types": "./dist/spacing.d.ts",
+      "default": "./dist/spacing.js"
+    },
+    "./typography": {
+      "types": "./dist/typography.d.ts",
+      "default": "./dist/typography.js"
+    },
+    "./radii": {
+      "types": "./dist/radii.d.ts",
+      "default": "./dist/radii.js"
+    },
+    "./shadows": {
+      "types": "./dist/shadows.d.ts",
+      "default": "./dist/shadows.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
